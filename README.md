@@ -1,1 +1,1 @@
-# numerico2
+## Análisis Numérico 2 con Octave
