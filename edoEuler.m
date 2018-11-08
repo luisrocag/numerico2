@@ -1,4 +1,3 @@
-﻿1;
 function z=edoEuler(f,a,ya,b,h)
 t=a:h:b;
 z=zeros(size(t));
@@ -9,8 +8,8 @@ for i=1:length(t)-1
 end
 end
 
-f_edo=@(x,t) -x;
-x0 = 1; t0 = 0;
-% resuelve x'=-x, x(0)=1
-tf= 10;h=0.1;
-z=edoEuler(f_edo,t0,x0,tf,h);
+% f_edo=@(x,t) -x;
+% x0 = 1; t0 = 0;
+%% resuelve x'=-x, x(0)=1
+% tf= 10;h=0.1;
+% z=edoEuler(f_edo,t0,x0,tf,h);
