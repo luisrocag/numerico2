@@ -57,5 +57,5 @@ end
 % x0 = 1; t0 = 0;
 %% resuelve x'=-x, x(0)=1
 % tf= 10;h=0.1;
-% z=edoEuler(f_edo,t0,x0,tf,h);
+% z=edoRK4(f_edo,t0,x0,tf,h);
 ```
