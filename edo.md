@@ -39,7 +39,7 @@ end
 % z=edoEuler(f_edo,t0,x0,tf,h);
 ```
 ## Archivo edoRK4.m
-
+```
 function z=edoRK4(f,a,ya,b,h)
 t=a:h:b;
 z=zeros(size(t));
@@ -58,3 +58,4 @@ end
 %% resuelve x'=-x, x(0)=1
 % tf= 10;h=0.1;
 % z=edoEuler(f_edo,t0,x0,tf,h);
+```
