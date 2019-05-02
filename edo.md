@@ -1,3 +1,7 @@
+# Metodos para EDO's de primer orden
+
+## Archivo edoTaylor.m
+```
 function z=edoTaylor(f,fx,ft,a,xa,b,h)
 t=a:h:b;
 z=zeros(size(t));
@@ -14,3 +18,4 @@ end
 %% resuelve x'=-x, x(0)=1
 % tf= 10;h=0.1;
 % z=edoTaylor(f_edo,fx,ft,t0,x0,tf,h);
+```
