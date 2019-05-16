@@ -11,8 +11,10 @@ end
 ~~~~
 
 ## Metodos multipaso
+
+Archivo edoPredCor.m
+
 ~~~~
-1;
 function z=edoPredCor(f,a,ya,b,h)
 t=a:h:b;
 z=zeros(size(t));
@@ -34,9 +36,13 @@ for i=4:length(z)-1
 endfor
 
 end % termina la function AB
+~~~~
+Archivo test_corrector.m
+~~~~
 f_edo=@(x,t) -x;
 x0 = 1; t0 = 0;
 % resuelve x'=-x, x(0)=1
 tf= 10;h=0.1;
 z=edoPredCor(f_edo,t0,x0,tf,h);
+plot(t0:h:tf,z)
 ~~~~
