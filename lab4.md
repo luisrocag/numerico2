@@ -47,7 +47,7 @@ z=edoPredCor(f_edo,t0,x0,tf,h);
 plot(t0:h:tf,z)
 ~~~~
 
-## Ejemplo de instabilidad
+## Ejemplo de inestabilidad
 
 ~~~~
 f_edo=@(x,t) 30-5*x;
