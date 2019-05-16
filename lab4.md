@@ -46,3 +46,17 @@ tf= 10;h=0.1;
 z=edoPredCor(f_edo,t0,x0,tf,h);
 plot(t0:h:tf,z)
 ~~~~
+
+## Ejemplo de instabilidad
+
+~~~~
+f_edo=@(x,t) 30-5*x;
+x0 = 1; t0 = 0;
+% resuelve x'=-x, x(0)=1
+tf= 10;
+h1=0.3;
+z1=edoPredCor(f_edo,t0,x0,tf,h1);
+h2=0.2;
+z2=edoPredCor(f_edo,t0,x0,tf,h2);
+plot(t0:h1:tf,z1,t0:h2:tf,z2)
+~~~~
