@@ -7,6 +7,7 @@ Enviar codigo y resultados a lrocag@uni.pe con nombre codigo y curso.
 (https://github.com/luisrocag/numerico2/blob/master/lab4.md)
 
 ## Laboratorio : Diferencias finitas
+```octave
 % solucion numerica de u''+pu'=f; u(a)=ua; u(b)=ub
 a = 0;b = 1;n = 100; h = (b-a)/(n-1);
 x = linspace(a,b,n);
