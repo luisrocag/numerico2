@@ -1,9 +1,11 @@
 # Análisis Numérico 2 con Octave
+## Semestre 2019-2
+## Laboratorio 1: Interpolacion
+(https://github.com/luisrocag/numerico2/blob/master/lagrange.m)
+(https://github.com/luisrocag/numerico2/blob/master/newpoly.m)
 
-Enviar codigo y resultados a lrocag@uni.pe con nombre codigo y curso.
-
+## Semestre 2019-1
 ## Laboratorio : Métodos para EDO
-
 (https://github.com/luisrocag/numerico2/blob/master/lab4.md)
 
 ## Laboratorio : Diferencias finitas
