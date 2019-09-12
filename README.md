@@ -5,7 +5,7 @@
 (https://github.com/luisrocag/numerico2/blob/master/newpoly.m)
 
 ## Laboratorio 2: Spline
-(https://github.com/luisrocag/numerico2/blob/master/laboratorio_spline)
+(https://github.com/luisrocag/numerico2/blob/master/laboratorio_spline.md)
 
 ## Semestre 2019-1
 ## Laboratorio : Métodos para EDO
