@@ -4,9 +4,13 @@
 (https://github.com/luisrocag/numerico2/blob/master/lagrange.m)
 (https://github.com/luisrocag/numerico2/blob/master/newpoly.m)
 
+## Laboratorio 2: Spline
+(https://github.com/luisrocag/numerico2/blob/master/laboratorio_spline)
+
 ## Semestre 2019-1
 ## Laboratorio : Métodos para EDO
 (https://github.com/luisrocag/numerico2/blob/master/lab4.md)
+
 
 ## Laboratorio : Diferencias finitas
 ```octave
