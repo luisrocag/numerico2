@@ -6,6 +6,7 @@
 
 ## Laboratorio 2: Spline
 (https://github.com/luisrocag/numerico2/blob/master/laboratorio_spline.md)
+(https://github.com/luisrocag/numerico2/blob/master/spline_cubico.m)
 Referencia: (https://www.math.ntnu.no/emner/TMA4215/2008h/cubicsplines.pdf)
 
 ## Semestre 2019-1
